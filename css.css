@@ -1,0 +1,157 @@
+body {
+	background-image: url(http://68.media.tumblr.com/9d73bf7d1b787831ac90a041890620d3/tumblr_inline_mlky7tRo9r1r53miq.png)
+}
+.centro{
+    width:950px;
+    margin: 0 auto;
+}
+.logo img{
+	width:850px;
+	height:250px;
+}
+h1{
+    margin: 0 auto;
+    font-family: blake;
+    padding-left:350px;
+    font-size: 90px;
+}
+.centralizada{
+    width: 950px;
+    margin: 0 auto;
+}
+.header-slogan{
+	font-size:25px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FF7F00;
+}
+.menu{
+    margin: 0 auto;
+}
+.menu :last-child{
+    border-right: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.menu li {
+    list-style:none;
+    display:inline;
+    padding-left:50px;
+    padding-right: 50px;
+    border-right: 1px solid;
+    font-family: 'Josefin Sans', sans-serif;
+	font-size:20px;
+	text-align: center;
+}
+.section{
+	padding-top:20px;
+}
+a{	
+	text-decoration: none; 
+	color: #23238E;
+}
+.menu li:first-child{
+    color:#B03060;
+}
+.main {
+	background-color: #F8F8FF;
+}
+
+.musica {
+	font-family: 'Josefin Sans', sans-serif;
+	width: 150px;
+	font-size: 30px;
+	float: left;
+ }
+
+.musica img {
+	width: 450px;
+	height: 300px;
+	margin-right: 20px;
+}
+.arte img {
+	width: 450px;
+	height: 300px;
+	margin-left: -100px;
+}
+.artemusica img {
+	width: 950px;
+	margin-top:20px;
+}
+.arte {
+	font-family: 'Josefin Sans', sans-serif;
+	width: 350px;
+	font-size: 30px;
+	float: right;
+}
+.artemusica {
+	font-family: 'Josefin Sans', sans-serif;
+	width: 350px;
+	font-size: 30px;
+}
+.cont {
+	width: 900px;
+    margin: 0px auto;
+    text-align: center;
+	font-size:15px;
+    padding: 30px 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.footer{
+	background-color:rgba(248,248,255, 0.5);
+}
+.sobre {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+.contato {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:25px;
+	color: #FF7F00;
+}
+#titulo{
+	color: #23238E;
+}
+.contato p {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	color: #23238E;
+}
+.botao{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	border-radius: 7px;
+	padding: 7px 10px 7px 10px;
+	margin-top: 20px;
+	background-color: #FFFFF0;
+	color: #FF7F00;
+}
+#nome{
+	border-radius: 5px;
+	background-color: #FFFFF0;
+}
+#email{
+	border-radius: 5px;
+	background-color: #FFFFF0;
+}
+#msg{
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 5px;
+    width: 235px;
+	height: 80px;
+	margin-top:15px;
+	margin-left:13px;
+    padding-bottom: 3px;
+	font-size:15px;
+	background-color: #FFFFF0;
+}
+@media(max-width:400){
+	*{
+		box-sizing: border-box;
+	}
+	.centro{
+		margin:0;
+		padding:10px;
+		width: 100%;
+	}
+}
